@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2020, 3:03:23 PM
+    Author     : navee
+*/
+
+
+/*PageDescription*/
+section.PageDescription 
+{
+    height: 600px;
+    border: 1px #39424e solid;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+img.PageDescription{
+      filter: blur(8px);
+}
+
+div.container {
+  position: relative;
+  text-align: center;
+}
+
+
+div.centered {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #80ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Movies/////////////////////////*/
+
+section.movies{
+    height: 650px;
+    border: 1px #39424e solid;
+    margin-bottom: 30px;
+}
+
+section.movies p.movie{
+    font-size: 32px;
+    color: white;
+    font-family: sans-serif;
+    padding-left:20px;
+}
+
+ul.movies li div.movie{
+    width: 175px;
+    height: 425px;
+/*    border: 1px #39424e solid;*/
+    margin-left: 24px;
+    border-radius : 12px;
+}
+
+ul.movies li{
+    list-style-type: none;
+    display:inline;
+    float: left;
+}
+
+ul.movies li a{
+    text-decoration: none;
+}
+
+ul.movies li div.movie:hover{
+    transform: scale(1.2);
+}
+
+
+div img.prop
+{
+    width: 170px;
+    height: 250px;
+    border-radius: 12px;
+    border: 2px #39424e dotted;
+}
+
+div.moviedes{
+    width: 165px;
+    height: 157px;
+    border-radius: 12px;
+    border: 2px #39424e dotted;
+    margin-left: 2px; 
+}
+
+div.moviedes {
+    font-size:13px;
+    color: white;
+    font-family: sans-serif;
+    padding-top:3px;
+    padding-left: 3px;
+}
+
+div.d{
+    color: #80ffff;
+    text-decoration: underline;
+    display: inline;
+}
+
+div.moremovies{
+    margin-top: 500px;
+    padding-left: 1300px;
+    height: 50px;
+}
+
+div.moremovies p a{
+    font: sans-serif;
+    font-size: 30px;
+    color: #80ffff;
+    text-decoration: none;
+}
+
+div.moremovies p a:hover{
+    font-size: 35px;
+}
+
+
+
+/*Music////////////////////////*/
+
+section.musics{
+    height: 650px;
+    border: 1px #39424e solid;
+    margin-bottom: 30px;
+}
+
+section.musics p.music{
+    font-size: 32px;
+    color: white;
+    font-family: sans-serif;
+    padding-left:20px;
+}
+
+ul.musics li div.music{
+    width: 175px;
+    height: 425px;
+/*    border: 1px #39424e solid;*/
+    margin-left: 24px;
+    border-radius : 12px;
+}
+
+ul.musics li{
+    list-style-type: none;
+    display:inline;
+    float: left;
+}
+
+ul.musics li a{
+    text-decoration: none;
+}
+
+ul.musics li div.music:hover{
+    transform: scale(1.2);
+}
+
+
+/*div img.prop
+{
+    width: 170px;
+    height: 250px;
+    border-radius: 12px;
+    border: 2px #39424e dotted;
+}*/
+
+div.musicdes{
+    width: 165px;
+    height: 157px;
+    border-radius: 12px;
+    border: 2px #39424e dotted;
+    margin-left: 2px; 
+}
+
+div.musicdes {
+    font-size:13px;
+    color: white;
+    font-family: sans-serif;
+    padding-top:3px;
+    padding-left: 3px;
+}
+
+/*div.d{
+    color: #80ffff;
+    text-decoration: underline;
+    display: inline;
+}*/
+
+div.moremusics{
+    margin-top: 500px;
+    padding-left: 1300px;
+    height: 50px;
+}
+
+div.moremusics p a{
+    font: sans-serif;
+    font-size: 30px;
+    color: #80ffff;
+    text-decoration: none;
+}
+
+div.moremusics p a:hover{
+    font-size: 35px;
+}
