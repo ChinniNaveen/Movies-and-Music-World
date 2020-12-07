@@ -16,9 +16,12 @@ html{
 
 /*head //////////////////////////*/
 
+
 header{
+    position: sticky;
+    top: 0px;
     height: 70px;
-    background-color: black;
+    background-color: rgba(0, 0, 0,0.4);
     border: 2px #39424e dotted;
 }
 
@@ -36,8 +39,16 @@ nav ul.menu li a.icon{
 }
 
 nav{
-    
     padding-top: 3px;
+}
+
+a.menu {
+    text-decoration: none;
+}
+
+ul.menu li{
+      list-style-type: none;
+      display:inline;
 }
 
 form.menu input{
@@ -51,34 +62,45 @@ form.menu input{
     border-radius : 5px;
 }
 
-ul.menu li a{
+a.menu{
     font-family: Arial;
     color: rgb(183, 201, 204);
     font-size: 25px;
     padding-left: 20px; 
 }
 
-ul.menu li{
-      list-style-type: none;
-      display:inline;
+a.icon{
+    font-family: Arial;
+    color: rgb(183, 201, 204);
+    font-size: 25px;
+    padding-left: 20px; 
 }
 
-a.menu:hover{
+nav ul.menu li a.menu:hover
+{
     color: white;
 }
 
-button.menu{
-    font-family: Arial;
-    font-size: 20px;
-    border: none;
-    border-radius : 5px;
+nav ul.menu li a.icon:hover
+{
+    color: white;
 }
 
-button.menu:hover{
-    background-color: white;
+li a.login
+{
+      text-decoration: none;
+      border-radius: 12px;
+      font-family: Arial;
+      color: rgb(183, 201, 204);
+      font-size: 25px;
+      margin-left: 20px;
+      border: 2px #39424e dotted;
+      padding: 6px;
 }
 
-a.menu {
-    text-decoration: none;
+ul.menu li a.login:hover
+{
+    color: black;
+    background-color: rgba(0,255,255,0.68);
 }
 

@@ -22,20 +22,26 @@ img.PageDescription{
       filter: blur(8px);
 }
 
+
 div.container {
   position: relative;
   text-align: center;
 }
 
 
-div.centered {
+div.pagedes{
   font-size: 50px;
   font-family: sans-serif;
-  color: #80ffff;
+  color: black;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+div.pagedes:hover{
+    background-color: rgba(0,255,255,0.4);
+    border-radius: 12px;
 }
 
 /*Movies/////////////////////////*/
