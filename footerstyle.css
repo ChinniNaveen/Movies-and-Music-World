@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : Dec 6, 2020, 3:55:51 PM
-    Author     : navee
+    Author     : naveen
 */
 footer{
     color: white;
@@ -38,10 +38,16 @@ img.media{
     height: 50px;
     width: 55px;
     margin-left: 5px;
+    padding-top: 7px;
 }
 
 li a img.media:hover{
     transform: scale(1.2);
 }
 
-
+div.socialmedia ul li.follow
+{
+   color: #39424e;
+   font-family: sans-serif;
+   font-size: 20px;
+}

@@ -5,43 +5,68 @@ and open the template in the editor.
 */
 /* 
     Created on : Dec 6, 2020, 3:03:23 PM
-    Author     : navee
+    Author     : naveen
 */
 
 
 /*PageDescription*/
 section.PageDescription 
 {
-    height: 600px;
+    height: 400px;
     border: 1px #39424e solid;
     margin-bottom: 30px;
     margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img.PageDescription{
-      filter: blur(8px);
+.container1
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.container2
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.container3
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 90px;
+    padding-top: 50px;
 }
 
 
-div.container {
-  position: relative;
-  text-align: center;
+div.des
+{
+    position: absolute;
+    font-size: 50px;
+    color: rgba(0,0,0,0);
+    font-family: sans-serif;
+    padding: 100px 150px 100px 150px;
+     transition: background-color .8s;
+     transition: color .8s;
 }
 
-
-div.pagedes{
-  font-size: 50px;
-  font-family: sans-serif;
-  color: black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-div.pagedes:hover{
-    background-color: rgba(0,255,255,0.4);
-    border-radius: 12px;
+section.PageDescription div.des:hover{
+     background-color: rgba(0,0,0,0.68);
+     color: rgb(0,255,255);
+     backdrop-filter: blur(5px);
 }
 
 /*Movies/////////////////////////*/
@@ -79,6 +104,7 @@ ul.movies li a{
 
 ul.movies li div.movie:hover{
     transform: scale(1.2);
+    transition: transform .4s;
 }
 
 
@@ -119,7 +145,7 @@ div.moremovies{
 }
 
 div.moremovies p a{
-    font: sans-serif;
+    font-family: sans-serif;
     font-size: 30px;
     color: #80ffff;
     text-decoration: none;
@@ -166,6 +192,7 @@ ul.musics li a{
 
 ul.musics li div.music:hover{
     transform: scale(1.2);
+    transition: transform .4s;
 }
 
 
@@ -206,7 +233,7 @@ div.moremusics{
 }
 
 div.moremusics p a{
-    font: sans-serif;
+    font-family: sans-serif;
     font-size: 30px;
     color: #80ffff;
     text-decoration: none;
